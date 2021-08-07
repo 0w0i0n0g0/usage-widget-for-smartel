@@ -1,7 +1,7 @@
 # [scriptable] smartel_MVNO_mobile_plan_usage_widget
 # [scriptable] 스마텔_알뜰폰_사용량_위젯
 
-![smartel logo]()
+![smartel logo](./img/smartel logo.jpg)
 ## Alert
 This widget is for "Smartel" among South Korea's MVNO mobile carriers, so README is written in Korean.
 
