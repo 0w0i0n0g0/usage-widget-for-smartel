@@ -1,4 +1,21 @@
-//set login info
+/*
+This widget is for "Smartel" among South Korea's MVNO mobile carriers, so README is written in Korean.
+이 위젯은 한국의 알뜰폰 통신사 중 "스마텔"을 대상으로 만들어졌으므로 한국어로 README가 쓰여졌습니다.
+
+이 위젯은 해당 통신사와 어떠한 관계없이, 소비자의 편의를 위해 만들었습니다.
+로그인 시 필요한 전화번호, 이름, 비밀번호는 이 파일에만 저장되고 로그인과 로그인에 필요한 인코딩에만 사용됩니다.
+scriptable의 파일은 기본설정으로 iCloud에 저장됩니다. 개인정보를 저장한 파일을 공유하지 마십시오.
+
+
+
+밑의 코드에 순서대로
+
+전화번호 ex) let hp_no = "01012345678"
+이름 ex) let user_nm = "가나다"
+비밀번호 ex) let pwd = "password"
+
+형식으로 작성해주십시오.
+*/
 let hp_no = ""
 let user_nm = ""
 let pwd = ""
@@ -68,10 +85,24 @@ data_left = (data_left/1000000).toFixed(2)
 
 
 
+//logs
+console.log(reslogin)
+console.log(usage)
+console.log(uriname)
+
+
+
+//show when widget is refreshed
+var now = new Date()
+var hours = now.getHours()
+var minutes = now.getMinutes()
+
+
+
 //widget setting
 let widget = new ListWidget()
 
-let txt1 = widget.addText("문자  (건)")
+let txt1 = widget.addText("문자  (건)" + "            " + hours + ":" + minutes)
 let txt1_1 = widget.addText(message_left + " / " + message)
 let txt2 = widget.addText("전화  (분)")
 let txt2_1 = widget.addText(call_left + " / " + call)
