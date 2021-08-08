@@ -87,11 +87,9 @@ usage = usage.replace(/<td>/g,"");
 usage = usage.replace(/<\/td>/g,"");
 usage = usage.replace(/<tr bgcolor='#FFFFFF'>/g,"");
 usage = usage.replace(/<\/tr>/g,"");
-
 usage.replace(/\t/g, '');
-let usage_array = usage.split("\n");
 
-console.log(usage)
+let usage_array = usage.split("\n");
 
 
 
@@ -112,9 +110,11 @@ data_left = (data_left/1000000).toFixed(2)
 
 
 //logs
-console.log(reslogin)
-console.log(usage)
-console.log(uriname)
+console.log("한글 인코딩 결과\n" + uriname)
+console.log("로그인 정보\n" + reqlogin.body)
+console.log("로그인 결과\n" + reslogin)
+console.log("추출된 사용량\n" + usage)
+console.log("사용량 배열\n" + usage_array)
 
 
 
