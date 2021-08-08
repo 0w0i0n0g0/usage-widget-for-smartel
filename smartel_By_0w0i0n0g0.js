@@ -22,6 +22,32 @@ let pwd = ""
 
 
 
+//euckr_to_uri function
+let requri = new Request("https://www.urlencoder.org/")
+
+requri.method = "POST"
+
+requri.headers = {
+	"content-type": "application/x-www-form-urlencoded"
+}
+
+requri.body = "input=" + encodeURI(user_nm) + "&charset=EUC-KR&separator=lf"
+
+let resuri = await requri.loadString()
+
+let uriresult = resuri.indexOf("Result goes here...")
+
+let uriresultend = resuri.indexOf("textarea", uriresult+1)
+
+let uriname = resuri.substring(uriresult, uriresultend)
+
+let urinamestart = uriname.indexOf(">")
+let urinameend = uriname.indexOf("<", urinamestart+1)
+
+uriname = uriname.substring(urinamestart+1, urinameend)
+
+
+
 //login to smartel
 let reqlogin = new Request("https://www.smartelmobile.com:5009/mobile2/m_login_proc.asp")
 
@@ -32,7 +58,7 @@ reqlogin.headers = {
     "Origin": "https://www.smartelmobile.com:5009"
 };
 
-reqlogin.body = 'goUrl=' + '&hp_no=' + hp_no + '&user_nm=' + encodeURI(user_nm) + '&pwd=' + encodeURI(pwd)
+reqlogin.body = 'goUrl=' + '&hp_no=' + hp_no + '&user_nm=' + uriname + '&pwd=' + encodeURIComponent(pwd)
 
 reqlogin.onRedirect = function (request)
 	{
