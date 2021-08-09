@@ -136,7 +136,7 @@ return 0
 
 - 
   - Done을 눌러 나온 후, 스크립트를 눌러 실행하고 조금 기다리면 "smartel_By_0w0i0n0g0"가 생성됨
-
+  - **untitled script를 삭제해주세요. 실수로 다시 누르면 이후에 저장된 로그인 정보가 삭제됩니다!
 <p align="center">
 <a herf="">
 <img src="./img/2-4.png" width="300"><img src="./img/2-5.png" width="300">
