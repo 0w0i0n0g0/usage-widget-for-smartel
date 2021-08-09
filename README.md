@@ -143,6 +143,9 @@ return 0
 </a>
 <p>
 
+- 
+  - 주의! 
+  - "smartel_By_0w0i0n0g0"이 생성되었다면 다운로드시 사용된 "Untitled Script"를 삭제해 주십시오. 실수로 실행되게 된다면 밑에서 저장할 로그인 정보가 초기화 되게 됩니다!
 ---
 3. scriptable 앱을 열고, smartel 옆의 점 세개를 눌러 편집
 
