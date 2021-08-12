@@ -19,6 +19,26 @@
 
 [사용](#usage)
 
+[기타](#others)
+
+
+<center>
+<h2 style="display: inline;">현재까지 다운로드 수&nbsp;&nbsp;&nbsp;<h3 id="text" style="display: inline;">다운로드 수</h3></h2>
+<br>
+<small>위 다운로드 수는 스크립트 다운로드 요청 횟수로 측정되었습니다.</small>
+</center>
+<script type="text/javascript" src="https://han.gl/analytic/OTM0Mzk1Ojc?token=9a064460dbde6319169393fad9a9e780"></script> 
+<script>
+let downloadsarray = Object.values(countries)
+let downloads = 0
+let i = 0
+for (; i < downloadsarray.length; i++)
+  {
+    downloads = downloads + downloadsarray[i]
+  }
+var str = document.getElementById("text")
+str.innerHTML = downloads
+</script>
 
 
 <br>
@@ -194,7 +214,7 @@ return 0
   <img src="./img/8.png" width="300"/><img src="./img/9.png" width="300"/>
 </p>
 
-
+---
 
 <br>
 <br>
@@ -209,14 +229,11 @@ return 0
 
 <br>
 <br>
-
----
-
-<br>
 <br>
 <br>
 <br>
 
+## Others
 
 ### Todo
 
