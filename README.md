@@ -8,8 +8,6 @@
 
 By_0w0i0n0g0
 
-![다운로드 수](https://serverkorea.duckdns.org)
-
 <br>
 <br>
 
