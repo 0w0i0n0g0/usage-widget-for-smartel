@@ -1,4 +1,4 @@
-<center>
+<div align="center">
 
 # 스마텔 알뜰폰 사용량 위젯
 
@@ -27,7 +27,7 @@ By_0w0i0n0g0
 
 [기타](#기타)
 
-</center>
+</div>
 
 <br>
 <br>
