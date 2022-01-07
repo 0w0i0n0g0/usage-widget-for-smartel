@@ -9,6 +9,14 @@
 By_0w0i0n0g0
 
 <br>
+
+<p align="center">
+<img src="https://hangl-statistics-to-svg.herokuapp.com/?url=https://han.gl/934395/stats&url2=https://han.gl/990234/stats&url3="/>
+<br>
+지금까지 다운로드된 횟수
+</p>
+
+<br>
 <br>
 
 ## 목차
@@ -90,9 +98,9 @@ return 0
 <img src="./img/2-4.png" width="300"><img src="./img/2-5.png" width="300">
 <p>
 
-- 
-  - 주의! 
-  - "smartel_By_0w0i0n0g0"이 생성되었다면 다운로드시 사용된 "Untitled Script"를 삭제해 주십시오. 실수로 실행되게 된다면 밑에서 저장할 로그인 정보가 초기화 되게 됩니다!
+- __주의!__ 
+
+"smartel_By_0w0i0n0g0"이 생성되었다면 다운로드시 사용된 "Untitled Script"를 __삭제__ 해 주십시오. 실수로 실행되게 된다면 밑에서 저장할 로그인 정보가 __초기화__ 되게 됩니다!
 
 ---
 
