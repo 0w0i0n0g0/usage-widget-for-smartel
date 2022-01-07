@@ -12,11 +12,9 @@ By_0w0i0n0g0
 
 <p align="center">
 <img src="https://hangl-statistics-to-svg.herokuapp.com/?url=https://han.gl/934395/stats&url2=https://han.gl/990234/stats&url3="/>
-<br>
-<a herf="https://github.com/0w0i0n0g0/link_shortener_statistics_to_svg">
-지금까지 다운로드된 횟수
-</a>
 </p>
+
+[지금까지 다운로드된 횟수](https://github.com/0w0i0n0g0/link_shortener_statistics_to_svg)
 
 <br>
 <br>
