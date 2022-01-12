@@ -14,7 +14,7 @@ By_0w0i0n0g0
 <img src="https://hangl-statistics-to-svg.herokuapp.com/?url=https://han.gl/934395/stats&url2=https://han.gl/990234/stats&url3="/>
 </p>
 
-[지금까지 다운로드된 횟수](https://github.com/0w0i0n0g0/link_shortener_statistics_to_svg)
+[☝지금까지 설치된 횟수☝](https://github.com/0w0i0n0g0/link_shortener_statistics_to_svg)
 
 <br>
 <br>
@@ -57,6 +57,7 @@ By_0w0i0n0g0
 ---
 
 0. 마이스마텔에서 비밀번호 설정 (이미 설정되어 있다면 다음으로 넘어가기)
+
     - https://www.smartelmobile.com:5009/mobile2/m_login.asp
 
 
@@ -67,6 +68,7 @@ By_0w0i0n0g0
 ---
 
 1. 앱스토어에서 scriptable을 다운
+
     - https://apps.apple.com/us/app/scriptable/id1405459188?ign-mpt=uo%3D4
 
 <p align="center">
@@ -77,22 +79,20 @@ By_0w0i0n0g0
 
 2. scriptable 앱을 열고, 상단의 +버튼을 누른후 밑의 스크립트를 복사하여 붙여넣기
 
-```
-
+```js
 var fm = FileManager.iCloud()
 var code = await new Request("https://han.gl/fTNCc").loadString()
 fm.writeString(fm.joinPath(fm.documentsDirectory(), "smartel_By_0w0i0n0g0.js"), code)
 return 0
-
 ```
 
 <p align="center">
 <img src="./img/2-1.png" width="250"><img src="./img/2-2.png" width="250"><img src="./img/2-3.png" width="250">
 <p>
 
-- 
-  - Done을 눌러 나온 후, 스크립트를 눌러 실행하고 조금 기다리면 "smartel_By_0w0i0n0g0"가 생성됨
-  - "smartel_By_0w0i0n0g0"가 생성되었다면 "Untitled Script"를 꼭 삭제해주세요. 실수로 다시 누르면 이후에 저장된 로그인 정보가 삭제됩니다!
+- Done을 눌러 나온 후, 스크립트를 눌러 실행하고 조금 기다리면 "smartel_By_0w0i0n0g0"가 생성됩니다.
+
+- "smartel_By_0w0i0n0g0"가 생성되었다면 "Untitled Script"를 꼭 삭제해주세요. 실수로 다시 누르면 이후에 저장된 로그인 정보가 삭제됩니다!
 
 <p align="center">
 <img src="./img/2-4.png" width="300"><img src="./img/2-5.png" width="300">
@@ -100,7 +100,7 @@ return 0
 
 - __주의!__ 
 
-"smartel_By_0w0i0n0g0"이 생성되었다면 다운로드시 사용된 "Untitled Script"를 __삭제__ 해 주십시오. 실수로 실행되게 된다면 밑에서 저장할 로그인 정보가 __초기화__ 되게 됩니다!
+- "smartel_By_0w0i0n0g0"이 생성되었다면 다운로드시 사용된 "Untitled Script"를 __삭제__ 해 주십시오. 실수로 실행되게 된다면 밑에서 저장할 로그인 정보가 __초기화__ 되게 됩니다!
 
 ---
 
@@ -110,12 +110,15 @@ return 0
   <img src="./img/3.png" width="300"/>
 </p>
 
-- 
-    - 제일 위의 코드에 순서대로
-    - 전화번호 ex) let hp_no = "전화번호(-없이)"
-    - 이름 ex) let user_nm = "본인의 이름"
-    - 비밀번호 ex) let pwd = "마이스마텔에 등록한 비밀번호"
-    - 형식으로 작성해주십시오.
+제일 위의 코드에 순서대로
+
+- 전화번호 ex) let hp_no = "전화번호(-없이)"
+
+- 이름 ex) let user_nm = "본인의 이름"
+
+- 비밀번호 ex) let pwd = "마이스마텔에 등록한 비밀번호"
+
+형식으로 작성해주십시오.
 
 
 <p align="center">
@@ -125,6 +128,7 @@ return 0
 ---
 
 4. 위젯 추가에서 scriptable 선택
+
     - 위젯 선택
 
 <p align="center">
@@ -139,10 +143,11 @@ return 0
   <img src="./img/7.png" width="300"/>
 </p>
 
-- 
-    - script에서 smartel_By_0w0i0n0g0 선택
-    - When Interacting에서 Run Script 선택
-        - 이 설정을 하면 위젯을 클릭하여 새로고침할 수 있습니다.
+- script에서 smartel_By_0w0i0n0g0 선택
+
+- When Interacting에서 Run Script 선택
+
+    - 이 설정을 하면 위젯을 클릭하여 새로고침할 수 있습니다.
 
 <p align="center">
   <img src="./img/8.png" width="300"/><img src="./img/9.png" width="300"/>
@@ -199,22 +204,18 @@ return 0
 <br>
 <br>
 
-
-<br>
-<br>
-
 ## 주의사항
 
 - 이 위젯은 해당 통신사와 어떠한 관계없이, 소비자의 편의를 위해 만들었습니다.
-- 스마텔의 "실시간 제공량"을 제공하는 서버가 "실시간"으로 확인할 수 없게 새로고침되지 않습니다. 실제 사용량과 최대 10분 정도 차이날 수 있습니다.
+- 스마텔의 "실시간 제공량"을 제공하는 서버가 완전한 "실시간"으로 확인할 수 없게 새로고침되지 않습니다. 실제 사용량과 최대 10분 정도 차이날 수 있습니다.
 [테스트 결과 보기](#테스트)
 - 로그인 시 필요한 전화번호, 이름, 비밀번호는 이 파일에만 저장되고 로그인에만 사용됩니다.
 - scriptable의 파일은 기본설정으로 iCloud에 저장됩니다. 개인정보를 저장한 파일을 공유하지 마십시오.
 - 위젯을 사용하려먼 iCloud가 활성화 되어야 합니다. 활성화되어 있는지 확인하십시오.
 - 설치된 파일에 전화번호, 이름, 비밀번호를 모두 정확히 입력해야 합니다. [설치](#설치)를 정확하게 따라해주십시오.
 - scriptable앱은 iOS전용입니다.
-- 현재 스마텔 LGU만 호환됩니다. (USIM 스마트 심플(100분+1.5GB)와 우주 LTE데이터(11GB+)요금제로 테스트 완료)
-- 스마텔 SKT는 원하는 이용자가 실시간 사용량 조회 페이지의 html과 header 파일을 제공하면 제작 가능합니다. 제공하고 싶다면 issues에 업로드 해주세요.
+- 현재 스마텔 LGU만 호환됩니다. (USIM 스마트 심플(100분+1.5GB), USIM 심플(50분+1.8GB)과 우주 LTE데이터(11GB+)요금제로 테스트 완료)
+- 스마텔 SKT는 원하는 이용자가 실시간 사용량 조회 페이지의 html과 header 파일을 제공하면 제작 가능합니다. 제공하고 싶다면 issues에 업로드 해주세요. (보류중)
 - 업데이트 예정인 추가 기능들은 [여기서](#로드맵) 확인 가능합니다. 아이디어를 제공하고 싶다면 issues에 업로드 해주세요.
 
 <br>
@@ -229,6 +230,7 @@ return 0
 - [X] 3가지 크기에 맞춰 구현
 - [X] 새로고침된 시간 표시
 - [ ] 널부러져 있는 코드들 함수로 묶어 구현
+- [ ] skt용 로그인 코드 제작
 
 <br>
 
