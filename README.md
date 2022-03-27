@@ -171,7 +171,7 @@ When Interacting에서 Run Script 선택
 <br>
 
 - 이외 궁금한 점이나 피드백, 오류 등은 issues에 올려주세요.
-- 유용하게 사용한다면 상단에 Star를 눌러주세요!
+- 유용하셨다면 Star를 눌러주세요!
 
 <br>
 <br>
