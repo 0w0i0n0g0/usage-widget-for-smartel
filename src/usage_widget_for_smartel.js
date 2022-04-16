@@ -1,11 +1,9 @@
 // Variables used by Scriptable.
 // These must be at the very top of the file. Do not edit.
 // icon-color: red; icon-glyph: share-alt;
-
 let your_phone_number = ""; //예시 : 홍길동
 let your_name = ""; //예시 : 01012345678
 let your_password = ""; //예시 : qwer1234@
-
 /*Don't touch here!*/
 let NAME = "user_nm";
 let PHONE = "hp_no";
@@ -23,7 +21,7 @@ if (
   your_password = Keychain.get(PASSWORD);
 }
 let code = await new Request(
-  "https://raw.githubusercontent.com/0w0i0n0g0/usage_widget_for_smartel/main/src/usage_widget_for_smartel_script.js"
+  "https://cdn.jsdelivr.net/gh/0w0i0n0g0/usage-widget-for-smartel@main/src/usage_widget_for_smartel_script.js"
 ).loadString();
 eval("async function fn(hp_no, user_nm, pwd) {" + code + "}");
 await fn(your_phone_number, your_name, your_password);
